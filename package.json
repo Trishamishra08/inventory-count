@@ -1,11 +1,11 @@
 {
   "name": "cycle-count",
-  "version": "3.2.5",
+  "version": "3.3.0",
   "private": true,
   "description": "HotWax Commece Cycle Count App",
   "scripts": {
     "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build",
+    "build": "node api.js && vue-cli-service build",
     "test:unit": "vue-cli-service test:unit",
     "test:e2e": "vue-cli-service test:e2e",
     "lint": "vue-cli-service lint",
